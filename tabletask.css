@@ -1,0 +1,25 @@
+table{
+    width: 40%;
+    text-align: center;
+    margin: 20%;
+    padding: 2%;
+    
+}
+tr,th,td
+{
+    padding: 2%;
+}
+table,tr,th,td
+{
+ border: 1px solid whitesmoke;
+ border-collapse: collapse;
+ 
+}
+th{
+    background-color: darkred;
+    color: white;
+    }
+    
+body{
+    background-color: blue;
+}

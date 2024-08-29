@@ -1,0 +1,19 @@
+p{
+   
+    color: chocolate;
+    text-align: center;
+   background-image: url('https://img.freepik.com/premium-vector/vertical-floral-border-with-orange-flowers-calendula_528213-515.jpg?w=360');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+  background-size: 100% 100%;
+}
+
+img{
+   float: left;
+   width: 200px; 
+   height: 150px;
+}
+body{
+background-color: moccasin;
+}

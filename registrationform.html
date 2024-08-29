@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1>Registration Form</h1>
+<form action="" method="">
+    Name: <input type="text"><br>
+    Age: <input type="number"><br>
+    Gender: <input type="radio" name="gender" >Male <input type="radio" name="gender">Female <br>
+    Qualification: <input type="checkbox">SSLC <input type="checkbox">Plustwo <br>
+    Address: <textarea name="" id="" cols="20" rows="5"></textarea><br>
+    Email: <input type="email"><br>
+    password: <input type="Password"><br>
+    Photo: <input type="file"><br>
+    DOB: <input type="date"><br>
+    Time: <input type="time"><br>
+    <input type="submit">
+    <button>Cancel</button>
+</form><br><br><br>
+
+
+<table>
+    <form action="" method="">
+        <tr>
+            <th>Name:</th>
+            <td><input type="text" required placeholder="Enter Name"><br></td>
+        </tr>
+        <tr>
+            <th> Age: </th>
+            <td><input type="number" required></td>
+        </tr>
+        <tr>
+            <th> Gender: </th>
+            <td> <input type="radio" name="gender"  required>Male  <input type="radio" name="gender" required>Female  </td>
+        </tr>
+        <tr>
+            <th>Qualification:</th>
+            <td><input type="checkbox">SSLC <input type="checkbox" required>Plustwo</td>
+          
+        </tr>
+        <tr>
+            <th> Address: </th>
+            <td><textarea name="" id="" cols="20" rows="5" required></textarea></td>
+        </tr>
+        <tr>
+            <th> Email: </th>
+            <td><input type="email" required pattern="^[a-zA-Z0-9_.±]+@[a-zA-Z0-9-]+.[a-zA-Z0-9-.]+$"></td>
+        </tr>
+        <tr>
+            <th> password: </th>
+            <td><input type="password" required></td>
+        </tr>
+        <tr>
+            <th> Photo: </th>
+            <td><input type="file" required></td>
+        </tr>
+        <tr>
+            <th>DOB:</th>
+            <td><input type="date" required></td>
+        </tr>
+        <tr>
+            <th>Time:</th>
+            <td><input type="time" required></td>
+        </tr>
+        <tr>
+            <th>District:</th>
+            <td>
+                <select name="" id="">
+                    <option value=""> Thrissur</option>
+                    <option value="">Kannur</option>
+                </select>
+            </td>
+          </tr><br>
+        <tr>
+            <th>Phone :</th>
+            <td> <input type="number" pattern="[0-9]{10}$"></td>
+        </tr>
+        <tr>
+            <td><input type="Submit"></td>
+            <td> <button>Cancel</button></td>
+        </tr>
+ 
+    </form>
+</table>
+</body>
+</html>
