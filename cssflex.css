@@ -7,12 +7,27 @@
     border: 20px solid black;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+
+   /* align-items: flex-start; */
+    /* align-items: flex-end;  */
+   /* align-items: center;  */
+   /* flex-wrap: wrap; */
+ 
+   align-content: flex-start;
+   flex-flow: row wrap;
+
+
+   /* remove flex-direction and flex wrap   by  flex-flow command  */
+
+
+
+
+    /* justify-content: flex-start;
    justify-content: flex-end;
       justify-content: center;
       justify-content: space-around;
       justify-content: space-between;
-    justify-content: space-evenly;
+    justify-content: space-evenly; */
 
 }
 
