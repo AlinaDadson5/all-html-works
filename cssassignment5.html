@@ -21,7 +21,7 @@
         /* box-sizing: border-box; */
     }
     .container{
-        max-width: 1100px;
+        max-width: 1000;
         
         
     }
@@ -31,7 +31,7 @@
         margin:30px 0 15px 0 ;
         padding-left: 10px;
         /* padding-bottom: 2px; */
-        padding-top: 5px;
+        padding-top: 1px;
         border-bottom: 3px solid green;
         
     }
@@ -55,10 +55,10 @@
 
     }
   img{
-        width: 80%;
+        width: 88%;
         height: 200px;
         border: 5px solid darkgrey;
-        margin-left: 10%;
+        margin-left: 5%;
     }
     header p{
         color: white;
@@ -68,20 +68,25 @@
 
     
 
-    .wrapper{
+    .parent{
       
-        max-width: 1100px;
-        /* margin:0px ; */
-         /* margin: auto; */
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        /* grid-template-rows: 2fr 2fr 2fr; */
-        /* grid-auto-rows: 200px; */
-        /* grid-gap: 20px; */
+        grid-template-columns: 3fr 1fr
         
-        
+               
     }
 
+    .card
+    {
+        border: 2px solid darkgray;
+    
+        border-radius: 10px;
+        width:75%;
+        padding-left:5px;
+        padding-bottom: 3px;
+        margin-top: 2px;
+    }
+   
 </style>
 
           
@@ -106,52 +111,55 @@
     
       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLwsfo9NC1pzBgR2nmp8LIBDIPbZSqODx4Sg&s" alt="" ></div>
         
-     <div>
-        <div class="container-fluid"> <h2>Welcome to the website</h2>
-            <p style="width: 70%;">A homestay provides an opportunity to stay with a local family for a fee. It's an affordable accommodation alternative, ideal for independent leisure travellers of all ages, interns, gap year students, students living abroad and anyone seeking a real and genuine travel experience...A homestay provides an opportunity to stay with a local family for a fee. It's an affordable accommodation alternative, ideal for independent leisure travellers of all ages, interns, gap year students, students living abroad and anyone seeking a real and genuine travel experience... <br>A homestay provides an opportunity to stay with a local family for a fee. It's an affordable accommodation alternative, ideal for independent leisure travellers of all ages, interns, gap year students, students living abroad and anyone seeking a real and genuine travel experience... <br>A homestay provides an opportunity to stay with a local family for a fee. It's an affordable accommodation alternative, ideal for independent leisure travellers of all ages, interns, gap year students, students living abroad and anyone seeking a real and genuine travel experience... A homestay provides an opportunity to stay with a local family for a fee. It's an affordable accommodation alternative, ideal for independent leisure travellers of all ages, interns, gap year students, students living abroad and anyone seeking a real and genuine travel experience...A homestay provides an opportunity to stay with a local family for a fee. It's an affordable accommodation alternative, ideal for independent leisure travellers of all ages, interns, gap year students, students living abroad and anyone seeking a real and genuine travel experience... </p>
 
-            <h2 style="color: blue;">Home Stay Features...</h2>
-            <p>A homestay provides an opportunity to stay with a local family for a fee.</p>
-        
-          <ul>
+     
+        <div class="parent">
+           <div style="padding-left: 7%; width: 750px;"><h2>Welcome to the website </h2><br>
+             A homestay provides an opportunity to stay with a local family for a fee. It's an affordable accommodation alternative, ideal for independent leisure travellers of all ages, interns, gap year students,...A homestay provides an opportunity to stay with a local family for a fee... <br>A homestay provides an opportunity to stay with a local family for a fee. It's an affordable accommodation alternative, ideal for independent leisure travellers of all ages, interns, gap year students, students living abroad and anyone seeking a real and genuine travel experience... <br>A homestay provides an opportunity to stay with a local family for a fee. It's an affordable accommodation alternative, ideal for independent leisure travellers of all ages, interns, gap year students, students living abroad and anyone seeking a real and genuine travel experience... </p>
+             <h3 style="color: blue;">Types of Homestay</h3>
+            <ul>
             <li style="color: blue;"> <p style=" color: black;">single story</p></li>
             <li style="color: blue;"> <p style=" color: black;">Double story</p></li>
             <li style="color: blue;"> <p style=" color: black;">Dormitory Room</p></li>
-          </ul>
-        </div>
+            </ul>
+        </div>        
+        <div>
+          <div class="card">
+
+            <h3>Latest News</h3>
+            <h4 style="color:blue">Some text Goes here..</h4>
+            <p>some text... <br>
+            A homestay provides an opportunity to stay with a local family for a fee.</p>
+            <a href="" style="color: yellowgreen;">Read more</a>
+          </div>
           
-       
+        
+         <div class="card">
+           <h3>Useful Links</h3>
+           <ul>
+           <li style="color: blue;"><a href="" style="color: yellowgreen;">link 1</a></li>
+           <li style="color: blue;"><a href="" style="color: yellowgreen;">link 2</a></li>
+           <li style="color: blue;"><a href="" style="color: yellowgreen;">link 3</a></li>
+           <li style="color: blue;"><a href="" style="color: yellowgreen;">link 4</a></li>
+          </ul> 
+         </div>
+         <div class="card">
+
+         <h3>Search</h3>
+         <input type="text" placeholder="Enter Keywords..."><i class="fa-solid fa-magnifying-glass"></i>
+         </div>
+
 </div>
-<div style="border: 2px solid darkgray; width:20% ; border-radius: 10px;">
-
-<h3>Latest News</h3>
-<h4>Some text Goes here..</h4>
-<h6>some text...</h6>
-<p>A homestay provides an opportunity to stay with a local family for a fee.</p>
-<a href="" style="color: yellowgreen;">Read more</a>
-</div><br>
-
-<div style="border: 2px solid darkgray; width:20% ;  border-radius: 10px;">
-<h3>Useful Links</h3>
-<ul>
-    <li style="color: blue;"><a href="" style="color: yellowgreen;">link 1</a></li>
-    <li style="color: blue;"><a href="" style="color: yellowgreen;">link 2</a></li>
-    <li style="color: blue;"><a href="" style="color: yellowgreen;">link 3</a></li>
-    <li style="color: blue;"><a href="" style="color: yellowgreen;">link 4</a></li>
-</ul> 
-</div> <br>
-<div style="border: 2px solid darkgray; width:20% ; border-radius: 10px;">
-<h3>Search</h3>
-<input type="text" placeholder="Enter Keywords..."><i class="fa-solid fa-magnifying-glass"></i>
 </div>
 
   <footer>
    
-    <p>Home | Examples | A Page | Another Page | Contact Us <br>copyright@xyz | All rights Reserved</p>
+    <p>Home | Examples | A Page | Another Page | Contact Us <br>copyright <i class="fa-regular fa-copyright"></i> xyz | All rights Reserved</p>
  
     
 
   </footer>
+  </div>
 
 
 
